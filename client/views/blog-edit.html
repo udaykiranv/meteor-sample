@@ -1,0 +1,150 @@
+<template name="editBlog">
+{{#with blog}}
+    <form name = "blogForm" id="blogForm">
+    <div class="wrapper wrapper-content">
+        <div class="container">
+            <div class="row animated fadeIn">
+                <div class="col-md-8">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <h5>Upload Chart</h5>
+
+                            <div class="ibox-tools">
+                                <a class="collapse-link">
+                                    <i class="fa fa-chevron-up"></i>
+                                </a>
+                                <a class="dropdown-toggle"
+                                   data-toggle="dropdown"
+                                   href="#">
+                                    <i class="fa fa-wrench"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-user">
+                                    <li><a href="#">Config option 1</a>
+                                    </li>
+                                    <li><a href="#">Config option 2</a>
+                                    </li>
+                                </ul>
+                                <a class="close-link">
+                                    <i class="fa fa-times"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ibox-content">
+                           <div> 
+                            <img src="https://www.google.com/finance/getchart?q=NIFTY&p=1D&i=60"/>
+                           </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <h5>Chart Details</h5>
+
+                            <div class="ibox-tools">
+                                <a class="collapse-link">
+                                    <i class="fa fa-chevron-up"></i>
+                                </a>
+                                <a class="dropdown-toggle"
+                                   data-toggle="dropdown"
+                                   href="#">
+                                    <i class="fa fa-wrench"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-user">
+                                    <li><a href="#">Config option 1</a>
+                                    </li>
+                                    <li><a href="#">Config option 2</a>
+                                    </li>
+                                </ul>
+                                <a class="close-link">
+                                    <i class="fa fa-times"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ibox-content">
+                            <div class="form-group">
+                                <label class="checkbox-inline"><input type="radio"
+                                                                      value="option1"
+                                                                      id="inlineCheckbox1"> Equity </label>
+                                <label class="checkbox-inline"><input type="radio"
+                                                                      value="option2"
+                                                                      id="inlineCheckbox2"> Currency </label>
+                                <label class="checkbox-inline"><input type="radio"
+                                                                      value="option3"
+                                                                      id="inlineCheckbox3"> Commodity </label>
+                            </div>
+                            <div class="form-group">
+                                <label for="timeframe">Select Timeframe </label>
+                                <select class="form-control"
+                                        name="timeframe"
+                                        id="timeframe">
+                                    <option></option>
+                                    <option value="1 minute">1 minute</option>
+                                    <option value="5 minute">5 minute</option>
+                                    <option value="15 minute">15 minute</option>
+                                    <option value="30 minute">30 minute</option>
+                                    <option value="1 hour">1 hour</option>
+                                    <option value="Daily">Daily</option>
+                                    <option value="Weekly">Weekly</option>
+                                    <option value="Monthly">Monthly</option>
+                                    <option value="Quarterly">Quarterly</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="technique">Select Technique </label>
+                                <select class="form-control"
+                                        id="technique"
+                                        name="technique">
+                                    <option></option>
+                                    <option value="Orderflow">Orderflow</option>
+                                    <option value="Patterns">Candlestick Patterns</option>
+                                    <option value="Fibonocci Ratios">Fibonocci Ratios</option>
+                                    <option value="Moving Averages">Moving Averages</option>
+                                    <option value="Elliot Wave">Elliot Wave</option>
+                                    <option value="Wolfe Wave">Wolfe Wave</option>
+                                    <option value="Market Profile">Market Profile</option>
+                                    <option value="Others">Others</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="instrument">Select Instrument </label>
+
+                                <select class="form-control" name="instrument" id="instrument">
+                                    <option></option>
+                                    <option value="Nifty Future">Nifty</option>
+                                    <option value="Mexico">Bank Nifty</option>
+                                    <option value="Micronesia, Federated States of">Infosys</option>
+                                </select>
+                            </div>
+
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <input class="col-md-4"
+                                           type="text"
+                                           placeholder="Entry Price"
+                                            id = "price" value = "{{price}}">
+                                    <input class="col-md-4"
+                                           type="text"
+                                           placeholder="Stop Loss" id = "stoploss" value = "{{stoploss}}">
+                                    <input class="col-md-4"
+                                           type="text"
+                                           placeholder="Target" id = "target" value = "{{target}}">
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <br/>
+                            <button class="btn btn-primary"
+                                    type="submit">Make a Move
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+{{/with}}
+</template>

@@ -1,0 +1,1 @@
+{"version":3,"sources":["meteor://💻app/lib/blog.js"],"names":[],"mappings":"yBAAA;AACA;AACA","file":"/lib/blog.js","sourcesContent":["Blogs = new Meteor.Collection(\"blogs\");\n\n\n"]}
