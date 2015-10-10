@@ -14,9 +14,23 @@
                         </p>
 
                         <p class="m-b-xs">
-                            <span class="label pull-right label-primary">Market Profile</span>
-                            <i class="fa fa-map-marker"></i> Intraday
+                            <span class="label label-primary">Intraday</span>
+                            <!--<span class="pull-right"><i class="fa fa-tags"></i> tags</span> -->
+
+                        <span class="dropdown">
+                            <span class="pull-right dropdown-toggle" type="button" data-toggle="dropdown">
+                                <span class="fa fa-tags">Tags</span></span>
+                            <ul class="dropdown-menu">
+                                {{#each tags}}
+                                    <li><a href="#">{{name}}</a></li>
+                                {{/each}}
+                            </ul>
+                        </span>
+
+
                         </p>
+
+
                     </div>
                 </a>
             </li>
