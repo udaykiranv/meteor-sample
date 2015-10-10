@@ -80,11 +80,11 @@
                                         name="timeframe"
                                         id="timeframe">
                                     <option></option>
-                                    <option value="1 minute">1 minute</option>
-                                    <option value="5 minute">5 minute</option>
-                                    <option value="15 minute">15 minute</option>
-                                    <option value="30 minute">30 minute</option>
-                                    <option value="1 hour">1 hour</option>
+                                    <option value="1-minute">1 minute</option>
+                                    <option value="5-minute">5 minute</option>
+                                    <option value="15-minute">15 minute</option>
+                                    <option value="30-minute">30 minute</option>
+                                    <option value="1-hour">1 hour</option>
                                     <option value="Daily">Daily</option>
                                     <option value="Weekly">Weekly</option>
                                     <option value="Monthly">Monthly</option>
@@ -99,23 +99,18 @@
                                     <option></option>
                                     <option value="Orderflow">Orderflow</option>
                                     <option value="Patterns">Candlestick Patterns</option>
-                                    <option value="Fibonocci Ratios">Fibonocci Ratios</option>
-                                    <option value="Moving Averages">Moving Averages</option>
-                                    <option value="Elliot Wave">Elliot Wave</option>
-                                    <option value="Wolfe Wave">Wolfe Wave</option>
-                                    <option value="Market Profile">Market Profile</option>
+                                    <option value="Fibonocci-Ratios">Fibonocci Ratios</option>
+                                    <option value="Moving-Averages">Moving Averages</option>
+                                    <option value="Elliot-Wave">Elliot Wave</option>
+                                    <option value="Wolfe-Wave">Wolfe Wave</option>
+                                    <option value="Market-Profile">Market Profile</option>
                                     <option value="Others">Others</option>
                                 </select>
                             </div>
                             <div class="form-group">
-                                <label for="instrument">Select Instrument </label>
+                                <label for="instrument">Select Instrument (Stock/Index)</label>
 
-                                <select class="form-control" name="instrument" id="instrument">
-                                    <option></option>
-                                    <option value="Nifty Future">Nifty</option>
-                                    <option value="BankNifty">Bank Nifty</option>
-                                    <option value="Infy">Infosys</option>
-                                </select>
+                                <input type="text" placeholder="Instrument" data-provide="typeahead" class ="form-control typeahead" id="instrument" name="instrument">
                             </div>
 
                             <div class="hr-line-dashed"></div>
@@ -135,9 +130,18 @@
                             </div>
                             <div class="hr-line-dashed"></div>
                             <br/>
+                            <div class="form-group">
+                                <div class="row">
+                                <label for="tags">Auto generated Tags </label>
+                                <br/>
+                                <input type="text" name="tags" id="tags" class="tags form-control" data-role="tagsinput" disabled>
+                            </div>
+                            </div>
+                            <div class="form-group">
                             <button class="btn btn-primary"
                                     type="submit">Make a Move
                             </button>
+                                </div>
                         </div>
                     </div>
                 </div>

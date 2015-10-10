@@ -1,0 +1,26 @@
+<template name="posts">
+    <ul class="list-group elements-list">
+        {{#each blogs}}
+            <li class="list-group-item">
+                <a data-toggle="tab"
+                   href="#tab-1"
+                   class="selected">
+                    <small class="pull-right text-muted"> {{timeSince}}</small>
+                    <strong>{{username}}</strong>
+
+                    <div class="small m-t-xs">
+                        <p>
+                            {{title}}
+                        </p>
+
+                        <p class="m-b-xs">
+                            <span class="label pull-right label-primary">Market Profile</span>
+                            <i class="fa fa-map-marker"></i> Intraday
+                        </p>
+                    </div>
+                </a>
+            </li>
+        {{/each}}
+    </ul>
+
+</template>

@@ -4779,7 +4779,7 @@ a.compose-mail {
 }
 .mail-box-header {
   background-color: #ffffff;
-  border: 1px solid #e7eaec;
+  xborder: 1px solid #e7eaec;
   border-bottom: 0;
   padding: 30px 20px 20px 20px;
 }
@@ -8098,4 +8098,12 @@ body.md-skin {
 
 ul.nav.navbar-top-links.navbar-right img{
   vertical-align: baseline;
+}
+
+li {
+  color : green !important;
+}
+
+.bootstrap-tagsinput {
+ width : 100%;
 }

@@ -1,0 +1,48 @@
+<template name="viewblog">
+    {{#if selectedPost}}
+        {{#with selectedPost}}
+            <div class="element-detail-box">
+                <div class="tab-content">
+                    <div id="tab-1"
+                         class="tab-pane active">
+
+                        <div class="pull-right">
+                            <div class="tooltip-demo">
+
+                                {{#if isInWatchList}}
+                                <button class="btn btn-primary btn-xs watchlist_add"
+                                        data-toggle="tooltip"
+                                        data-placement="left"
+                                        title="Plug this message"><i class="fa fa-user-plus"></i> Following
+                                </button>
+                                {{else}}
+                                <button class="btn btn-primary btn-xs watchlist_add"
+                                        data-toggle="tooltip"
+                                        data-placement="left"
+                                        title="Plug this message"><i class="fa fa-user"></i> Follow
+                                </button>
+                                {{/if}}
+                            </div>
+                        </div>
+                        <div class="small text-muted">
+                            <i class="fa fa-clock-o"></i> {{created_at}}
+                        </div>
+
+                        <h1>
+                            {{title}}
+                        </h1>
+
+                        <div class="row">
+                            <img src="/img/chart.jpg"
+                                 width="90%"/>
+
+                            <p>
+                                Remarks: Value Area has been breached. We are looking at 80% trade
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {{/with}}
+    {{/if}}
+</template>

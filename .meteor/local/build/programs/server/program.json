@@ -345,20 +345,88 @@
       "path": "packages/reload.js"
     },
     {
-      "sourceMap": "packages/livedata.js.map",
-      "path": "packages/livedata.js"
+      "sourceMap": "packages/jeremy_selectize.js.map",
+      "path": "packages/jeremy_selectize.js"
+    },
+    {
+      "sourceMap": "packages/fortawesome_fontawesome.js.map",
+      "path": "packages/fortawesome_fontawesome.js"
     },
     {
       "sourceMap": "packages/mongo-livedata.js.map",
       "path": "packages/mongo-livedata.js"
     },
     {
-      "sourceMap": "packages/patrickleet_tags.js.map",
-      "path": "packages/patrickleet_tags.js"
+      "sourceMap": "packages/meteorhacks_collection-utils.js.map",
+      "path": "packages/meteorhacks_collection-utils.js"
     },
     {
-      "sourceMap": "packages/jeremy_selectize.js.map",
-      "path": "packages/jeremy_selectize.js"
+      "sourceMap": "packages/meteorhacks_aggregate.js.map",
+      "path": "packages/meteorhacks_aggregate.js"
+    },
+    {
+      "sourceMap": "packages/ajduke_bootstrap-tagsinput.js.map",
+      "path": "packages/ajduke_bootstrap-tagsinput.js"
+    },
+    {
+      "sourceMap": "packages/sergeyt_typeahead.js.map",
+      "path": "packages/sergeyt_typeahead.js"
+    },
+    {
+      "sourceMap": "packages/mizzao_autocomplete.js.map",
+      "path": "packages/mizzao_autocomplete.js"
+    },
+    {
+      "sourceMap": "packages/juliancwirko_s-alert.js.map",
+      "path": "packages/juliancwirko_s-alert.js"
+    },
+    {
+      "sourceMap": "packages/juliancwirko_s-alert-scale.js.map",
+      "path": "packages/juliancwirko_s-alert-scale.js"
+    },
+    {
+      "sourceMap": "packages/juliancwirko_s-alert-slide.js.map",
+      "path": "packages/juliancwirko_s-alert-slide.js"
+    },
+    {
+      "sourceMap": "packages/juliancwirko_s-alert-genie.js.map",
+      "path": "packages/juliancwirko_s-alert-genie.js"
+    },
+    {
+      "sourceMap": "packages/juliancwirko_s-alert-jelly.js.map",
+      "path": "packages/juliancwirko_s-alert-jelly.js"
+    },
+    {
+      "sourceMap": "packages/juliancwirko_s-alert-flip.js.map",
+      "path": "packages/juliancwirko_s-alert-flip.js"
+    },
+    {
+      "sourceMap": "packages/juliancwirko_s-alert-bouncyflip.js.map",
+      "path": "packages/juliancwirko_s-alert-bouncyflip.js"
+    },
+    {
+      "sourceMap": "packages/juliancwirko_s-alert-stackslide.js.map",
+      "path": "packages/juliancwirko_s-alert-stackslide.js"
+    },
+    {
+      "sourceMap": "packages/ergusto_tags.js.map",
+      "path": "packages/ergusto_tags.js"
+    },
+    {
+      "sourceMap": "packages/autoupdate.js.map",
+      "path": "packages/autoupdate.js"
+    },
+    {
+      "sourceMap": "packages/meteor-platform.js.map",
+      "path": "packages/meteor-platform.js"
+    },
+    {
+      "sourceMap": "packages/livedata.js.map",
+      "path": "packages/livedata.js"
+    },
+    {
+      "sourceMap": "packages/alethes_pages.js.map",
+      "path": "packages/alethes_pages.js"
     },
     {
       "sourceMap": "packages/hot-code-push.js.map",
@@ -367,10 +435,6 @@
     {
       "sourceMap": "packages/launch-screen.js.map",
       "path": "packages/launch-screen.js"
-    },
-    {
-      "sourceMap": "packages/autoupdate.js.map",
-      "path": "packages/autoupdate.js"
     },
     {
       "path": "packages/global-imports.js"

@@ -750,39 +750,6 @@
       "hash": "3b4580b6acbb8447ac412aad2cafc2f7df3b2435"
     },
     {
-      "path": "packages/livedata.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/packages/livedata.js?93f27626c1702ea8af804d6170ffbf8968626718",
-      "sourceMap": "packages/livedata.js.map",
-      "sourceMapUrl": "/packages/93f27626c1702ea8af804d6170ffbf8968626718.map",
-      "size": 898,
-      "hash": "93f27626c1702ea8af804d6170ffbf8968626718"
-    },
-    {
-      "path": "packages/mongo-livedata.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/packages/mongo-livedata.js?4ca4e1ff839e70bde61f820c1b823470b978e9f5",
-      "sourceMap": "packages/mongo-livedata.js.map",
-      "sourceMapUrl": "/packages/4ca4e1ff839e70bde61f820c1b823470b978e9f5.map",
-      "size": 774,
-      "hash": "4ca4e1ff839e70bde61f820c1b823470b978e9f5"
-    },
-    {
-      "path": "packages/patrickleet_tags.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/packages/patrickleet_tags.js?97cc6f8933a07fce9993c9c13ff36a6bfbc40569",
-      "sourceMap": "packages/patrickleet_tags.js.map",
-      "sourceMapUrl": "/packages/97cc6f8933a07fce9993c9c13ff36a6bfbc40569.map",
-      "size": 27194,
-      "hash": "97cc6f8933a07fce9993c9c13ff36a6bfbc40569"
-    },
-    {
       "path": "packages/jeremy_selectize.js",
       "where": "client",
       "type": "js",
@@ -805,37 +772,37 @@
       "hash": "c5edcae57ad2cf69f735706476fb86d91c1f1b0e"
     },
     {
-      "path": "packages/webapp.js",
+      "path": "packages/fortawesome_fontawesome.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/webapp.js?1b9f36d855fc5c8399abf2579ac1e1512060cc95",
-      "sourceMap": "packages/webapp.js.map",
-      "sourceMapUrl": "/packages/1b9f36d855fc5c8399abf2579ac1e1512060cc95.map",
-      "size": 2579,
-      "hash": "1b9f36d855fc5c8399abf2579ac1e1512060cc95"
+      "url": "/packages/fortawesome_fontawesome.js?da998d085c64c2fcae7c78f19c74e56c2f7b0fd4",
+      "sourceMap": "packages/fortawesome_fontawesome.js.map",
+      "sourceMapUrl": "/packages/da998d085c64c2fcae7c78f19c74e56c2f7b0fd4.map",
+      "size": 1391,
+      "hash": "da998d085c64c2fcae7c78f19c74e56c2f7b0fd4"
     },
     {
-      "path": "packages/hot-code-push.js",
+      "path": "packages/meteorhacks_aggregate.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/hot-code-push.js?3916ae26c3ca4928e61dc2da7e7b3f93e4164c0c",
-      "sourceMap": "packages/hot-code-push.js.map",
-      "sourceMapUrl": "/packages/3916ae26c3ca4928e61dc2da7e7b3f93e4164c0c.map",
-      "size": 773,
-      "hash": "3916ae26c3ca4928e61dc2da7e7b3f93e4164c0c"
+      "url": "/packages/meteorhacks_aggregate.js?475f06efa8b3a5ae9232a3a830d2afdadca97e1e",
+      "sourceMap": "packages/meteorhacks_aggregate.js.map",
+      "sourceMapUrl": "/packages/475f06efa8b3a5ae9232a3a830d2afdadca97e1e.map",
+      "size": 1389,
+      "hash": "475f06efa8b3a5ae9232a3a830d2afdadca97e1e"
     },
     {
-      "path": "packages/launch-screen.js",
+      "path": "packages/ajduke_bootstrap-tagsinput.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/launch-screen.js?b50bb1bd905d2cc3d6182ee28c096df0cc24a725",
-      "sourceMap": "packages/launch-screen.js.map",
-      "sourceMapUrl": "/packages/b50bb1bd905d2cc3d6182ee28c096df0cc24a725.map",
-      "size": 8132,
-      "hash": "b50bb1bd905d2cc3d6182ee28c096df0cc24a725"
+      "url": "/packages/ajduke_bootstrap-tagsinput.js?16bae1995b96b68e49fa9f50797a0d357e6d4382",
+      "sourceMap": "packages/ajduke_bootstrap-tagsinput.js.map",
+      "sourceMapUrl": "/packages/16bae1995b96b68e49fa9f50797a0d357e6d4382.map",
+      "size": 11260,
+      "hash": "16bae1995b96b68e49fa9f50797a0d357e6d4382"
     },
     {
       "path": "packages/ui.js",
@@ -849,6 +816,138 @@
       "hash": "6aa94fb4743be2472f799f928674607edae2afdf"
     },
     {
+      "path": "packages/sergeyt_typeahead.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/sergeyt_typeahead.js?418f6bc5125295eceed361b63229f0df23287137",
+      "sourceMap": "packages/sergeyt_typeahead.js.map",
+      "sourceMapUrl": "/packages/418f6bc5125295eceed361b63229f0df23287137.map",
+      "size": 364029,
+      "hash": "418f6bc5125295eceed361b63229f0df23287137"
+    },
+    {
+      "path": "packages/dandv_caret-position.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/dandv_caret-position.js?eecab18f5336d74cf4dbd8c1eead306e4565d22f",
+      "sourceMap": "packages/dandv_caret-position.js.map",
+      "sourceMapUrl": "/packages/eecab18f5336d74cf4dbd8c1eead306e4565d22f.map",
+      "size": 16230,
+      "hash": "eecab18f5336d74cf4dbd8c1eead306e4565d22f"
+    },
+    {
+      "path": "packages/mizzao_autocomplete.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/mizzao_autocomplete.js?f860abe7efd17e2bc551cc47e586dbfab93d3a4a",
+      "sourceMap": "packages/mizzao_autocomplete.js.map",
+      "sourceMapUrl": "/packages/f860abe7efd17e2bc551cc47e586dbfab93d3a4a.map",
+      "size": 74140,
+      "hash": "f860abe7efd17e2bc551cc47e586dbfab93d3a4a"
+    },
+    {
+      "path": "packages/juliancwirko_s-alert.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/juliancwirko_s-alert.js?7c413b38e3f675fc6a63d1d7dd7eab42b0659ccc",
+      "sourceMap": "packages/juliancwirko_s-alert.js.map",
+      "sourceMapUrl": "/packages/7c413b38e3f675fc6a63d1d7dd7eab42b0659ccc.map",
+      "size": 45038,
+      "hash": "7c413b38e3f675fc6a63d1d7dd7eab42b0659ccc"
+    },
+    {
+      "path": "packages/juliancwirko_s-alert-scale.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/juliancwirko_s-alert-scale.js?c21a81cd4b69d08a8653467e49df6690cb901d27",
+      "sourceMap": "packages/juliancwirko_s-alert-scale.js.map",
+      "sourceMapUrl": "/packages/c21a81cd4b69d08a8653467e49df6690cb901d27.map",
+      "size": 1447,
+      "hash": "c21a81cd4b69d08a8653467e49df6690cb901d27"
+    },
+    {
+      "path": "packages/juliancwirko_s-alert-slide.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/juliancwirko_s-alert-slide.js?376a1cc4496f0053d05f832cdb28899ebd1b273f",
+      "sourceMap": "packages/juliancwirko_s-alert-slide.js.map",
+      "sourceMapUrl": "/packages/376a1cc4496f0053d05f832cdb28899ebd1b273f.map",
+      "size": 1447,
+      "hash": "376a1cc4496f0053d05f832cdb28899ebd1b273f"
+    },
+    {
+      "path": "packages/juliancwirko_s-alert-genie.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/juliancwirko_s-alert-genie.js?3363a6bcb2774c40d9b45c7efd61509a0cde0811",
+      "sourceMap": "packages/juliancwirko_s-alert-genie.js.map",
+      "sourceMapUrl": "/packages/3363a6bcb2774c40d9b45c7efd61509a0cde0811.map",
+      "size": 1447,
+      "hash": "3363a6bcb2774c40d9b45c7efd61509a0cde0811"
+    },
+    {
+      "path": "packages/juliancwirko_s-alert-jelly.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/juliancwirko_s-alert-jelly.js?adec1316c7342f272318bc87d06d6b0822bb3319",
+      "sourceMap": "packages/juliancwirko_s-alert-jelly.js.map",
+      "sourceMapUrl": "/packages/adec1316c7342f272318bc87d06d6b0822bb3319.map",
+      "size": 1447,
+      "hash": "adec1316c7342f272318bc87d06d6b0822bb3319"
+    },
+    {
+      "path": "packages/juliancwirko_s-alert-flip.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/juliancwirko_s-alert-flip.js?5e06621645b43f16afbccb5c0bc22e7197432cb1",
+      "sourceMap": "packages/juliancwirko_s-alert-flip.js.map",
+      "sourceMapUrl": "/packages/5e06621645b43f16afbccb5c0bc22e7197432cb1.map",
+      "size": 1446,
+      "hash": "5e06621645b43f16afbccb5c0bc22e7197432cb1"
+    },
+    {
+      "path": "packages/juliancwirko_s-alert-bouncyflip.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/juliancwirko_s-alert-bouncyflip.js?608898276143739bd6dd066b58f3750efb72aeb2",
+      "sourceMap": "packages/juliancwirko_s-alert-bouncyflip.js.map",
+      "sourceMapUrl": "/packages/608898276143739bd6dd066b58f3750efb72aeb2.map",
+      "size": 1452,
+      "hash": "608898276143739bd6dd066b58f3750efb72aeb2"
+    },
+    {
+      "path": "packages/juliancwirko_s-alert-stackslide.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/juliancwirko_s-alert-stackslide.js?13e16fa822584782f4b725f0ddf04183a5dc982c",
+      "sourceMap": "packages/juliancwirko_s-alert-stackslide.js.map",
+      "sourceMapUrl": "/packages/13e16fa822584782f4b725f0ddf04183a5dc982c.map",
+      "size": 1452,
+      "hash": "13e16fa822584782f4b725f0ddf04183a5dc982c"
+    },
+    {
+      "path": "packages/ergusto_tags.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/ergusto_tags.js?ad72c878ef5377412b9f05c99928f4a917dbf9b7",
+      "sourceMap": "packages/ergusto_tags.js.map",
+      "sourceMapUrl": "/packages/ad72c878ef5377412b9f05c99928f4a917dbf9b7.map",
+      "size": 14169,
+      "hash": "ad72c878ef5377412b9f05c99928f4a917dbf9b7"
+    },
+    {
       "path": "packages/autoupdate.js",
       "where": "client",
       "type": "js",
@@ -860,57 +959,145 @@
       "hash": "764e166739a4aeba204926326b786baa4292b65d"
     },
     {
+      "path": "packages/meteor-platform.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/meteor-platform.js?63da010bb09b6a8ff1e0b63346200aad1bd6182d",
+      "sourceMap": "packages/meteor-platform.js.map",
+      "sourceMapUrl": "/packages/63da010bb09b6a8ff1e0b63346200aad1bd6182d.map",
+      "size": 859,
+      "hash": "63da010bb09b6a8ff1e0b63346200aad1bd6182d"
+    },
+    {
+      "path": "packages/webapp.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/webapp.js?1b9f36d855fc5c8399abf2579ac1e1512060cc95",
+      "sourceMap": "packages/webapp.js.map",
+      "sourceMapUrl": "/packages/1b9f36d855fc5c8399abf2579ac1e1512060cc95.map",
+      "size": 2579,
+      "hash": "1b9f36d855fc5c8399abf2579ac1e1512060cc95"
+    },
+    {
+      "path": "packages/livedata.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/livedata.js?93f27626c1702ea8af804d6170ffbf8968626718",
+      "sourceMap": "packages/livedata.js.map",
+      "sourceMapUrl": "/packages/93f27626c1702ea8af804d6170ffbf8968626718.map",
+      "size": 898,
+      "hash": "93f27626c1702ea8af804d6170ffbf8968626718"
+    },
+    {
+      "path": "packages/launch-screen.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/launch-screen.js?b50bb1bd905d2cc3d6182ee28c096df0cc24a725",
+      "sourceMap": "packages/launch-screen.js.map",
+      "sourceMapUrl": "/packages/b50bb1bd905d2cc3d6182ee28c096df0cc24a725.map",
+      "size": 8132,
+      "hash": "b50bb1bd905d2cc3d6182ee28c096df0cc24a725"
+    },
+    {
+      "path": "packages/alethes_pages.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/alethes_pages.js?eba039d44d31fd9dabca8c3d5a0416aff8d302e5",
+      "sourceMap": "packages/alethes_pages.js.map",
+      "sourceMapUrl": "/packages/eba039d44d31fd9dabca8c3d5a0416aff8d302e5.map",
+      "size": 185856,
+      "hash": "eba039d44d31fd9dabca8c3d5a0416aff8d302e5"
+    },
+    {
+      "path": "packages/hot-code-push.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/hot-code-push.js?3916ae26c3ca4928e61dc2da7e7b3f93e4164c0c",
+      "sourceMap": "packages/hot-code-push.js.map",
+      "sourceMapUrl": "/packages/3916ae26c3ca4928e61dc2da7e7b3f93e4164c0c.map",
+      "size": 773,
+      "hash": "3916ae26c3ca4928e61dc2da7e7b3f93e4164c0c"
+    },
+    {
       "path": "packages/global-imports.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/global-imports.js?d0e972ee47e0e90768115ffe19b30fd784e81283",
-      "size": 1314,
-      "hash": "d0e972ee47e0e90768115ffe19b30fd784e81283"
+      "url": "/packages/global-imports.js?53dacf864b2afbc1bcfee9bfa68437ca0725a018",
+      "size": 1359,
+      "hash": "53dacf864b2afbc1bcfee9bfa68437ca0725a018"
+    },
+    {
+      "path": "app/client/views/template.auto.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/app/client/views/template.auto.js?284cd471826077bea3d7dd8be66ba1182c13a569",
+      "sourceMap": "app/client/views/template.auto.js.map",
+      "sourceMapUrl": "/app/client/views/284cd471826077bea3d7dd8be66ba1182c13a569.map",
+      "size": 813,
+      "hash": "284cd471826077bea3d7dd8be66ba1182c13a569"
     },
     {
       "path": "app/client/views/template.blog-create.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/client/views/template.blog-create.js?a9beacc51ccc4ffcca5edbed106e21b708c03ecc",
+      "url": "/app/client/views/template.blog-create.js?52ed7aebcd0765c834fb68d51763c35d0850fd4f",
       "sourceMap": "app/client/views/template.blog-create.js.map",
-      "sourceMapUrl": "/app/client/views/a9beacc51ccc4ffcca5edbed106e21b708c03ecc.map",
-      "size": 7301,
-      "hash": "a9beacc51ccc4ffcca5edbed106e21b708c03ecc"
-    },
-    {
-      "path": "app/client/views/template.blog-edit.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/app/client/views/template.blog-edit.js?afdadbe9e83fa9245409b83ef005587a24045c79",
-      "sourceMap": "app/client/views/template.blog-edit.js.map",
-      "sourceMapUrl": "/app/client/views/afdadbe9e83fa9245409b83ef005587a24045c79.map",
-      "size": 9766,
-      "hash": "afdadbe9e83fa9245409b83ef005587a24045c79"
+      "sourceMapUrl": "/app/client/views/52ed7aebcd0765c834fb68d51763c35d0850fd4f.map",
+      "size": 7572,
+      "hash": "52ed7aebcd0765c834fb68d51763c35d0850fd4f"
     },
     {
       "path": "app/client/views/template.blog-list.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/client/views/template.blog-list.js?6d6f18532047e2de21fcb26c37eaebd3c4a75616",
+      "url": "/app/client/views/template.blog-list.js?ebefff21824e7f95fd77ce90425056475173f5f2",
       "sourceMap": "app/client/views/template.blog-list.js.map",
-      "sourceMapUrl": "/app/client/views/6d6f18532047e2de21fcb26c37eaebd3c4a75616.map",
-      "size": 11740,
-      "hash": "6d6f18532047e2de21fcb26c37eaebd3c4a75616"
+      "sourceMapUrl": "/app/client/views/ebefff21824e7f95fd77ce90425056475173f5f2.map",
+      "size": 5429,
+      "hash": "ebefff21824e7f95fd77ce90425056475173f5f2"
+    },
+    {
+      "path": "app/client/views/template.comments.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/app/client/views/template.comments.js?4724b2e944c6409a53d852fb16873a795d1853c7",
+      "sourceMap": "app/client/views/template.comments.js.map",
+      "sourceMapUrl": "/app/client/views/4724b2e944c6409a53d852fb16873a795d1853c7.map",
+      "size": 1866,
+      "hash": "4724b2e944c6409a53d852fb16873a795d1853c7"
     },
     {
       "path": "app/client/views/template.home.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/client/views/template.home.js?bf80d3a95b7593683643170b67440790b84d076c",
+      "url": "/app/client/views/template.home.js?1300b8729f305efd7b43b2c7006598bf6f36db86",
       "sourceMap": "app/client/views/template.home.js.map",
-      "sourceMapUrl": "/app/client/views/bf80d3a95b7593683643170b67440790b84d076c.map",
-      "size": 274,
-      "hash": "bf80d3a95b7593683643170b67440790b84d076c"
+      "sourceMapUrl": "/app/client/views/1300b8729f305efd7b43b2c7006598bf6f36db86.map",
+      "size": 285,
+      "hash": "1300b8729f305efd7b43b2c7006598bf6f36db86"
+    },
+    {
+      "path": "app/client/views/template.posts.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/app/client/views/template.posts.js?d3cf0f93d33537b3d9fdff764823a6b6c277f996",
+      "sourceMap": "app/client/views/template.posts.js.map",
+      "sourceMapUrl": "/app/client/views/d3cf0f93d33537b3d9fdff764823a6b6c277f996.map",
+      "size": 1563,
+      "hash": "d3cf0f93d33537b3d9fdff764823a6b6c277f996"
     },
     {
       "path": "app/client/views/template.private.js",
@@ -922,6 +1109,17 @@
       "sourceMapUrl": "/app/client/views/2251d50bf8f533cb4d7e75d9dd1b094db7148962.map",
       "size": 296,
       "hash": "2251d50bf8f533cb4d7e75d9dd1b094db7148962"
+    },
+    {
+      "path": "app/client/views/template.viewblog.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/app/client/views/template.viewblog.js?7907f3174d226d3d3119f4ae951791c75f1cf13a",
+      "sourceMap": "app/client/views/template.viewblog.js.map",
+      "sourceMapUrl": "/app/client/views/7907f3174d226d3d3119f4ae951791c75f1cf13a.map",
+      "size": 2894,
+      "hash": "7907f3174d226d3d3119f4ae951791c75f1cf13a"
     },
     {
       "path": "app/client/template.footer.js",
@@ -972,11 +1170,11 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/client/template.main.js?29748d9c6019898d1e3ef53e479e38ce365376fb",
+      "url": "/app/client/template.main.js?4af1646cfd6c5c09a38131a4ad05e7254ec43f33",
       "sourceMap": "app/client/template.main.js.map",
-      "sourceMapUrl": "/app/client/29748d9c6019898d1e3ef53e479e38ce365376fb.map",
-      "size": 153,
-      "hash": "29748d9c6019898d1e3ef53e479e38ce365376fb"
+      "sourceMapUrl": "/app/client/4af1646cfd6c5c09a38131a4ad05e7254ec43f33.map",
+      "size": 199,
+      "hash": "4af1646cfd6c5c09a38131a4ad05e7254ec43f33"
     },
     {
       "path": "app/lib/config/accounts_t9n.js",
@@ -994,11 +1192,11 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/lib/config/at_config.js?0374c379cfa2416e501fbe5444d574f535500f69",
+      "url": "/app/lib/config/at_config.js?874867c42e942e17247da706975cfa25c010b15d",
       "sourceMap": "app/lib/config/at_config.js.map",
-      "sourceMapUrl": "/app/lib/config/0374c379cfa2416e501fbe5444d574f535500f69.map",
-      "size": 824,
-      "hash": "0374c379cfa2416e501fbe5444d574f535500f69"
+      "sourceMapUrl": "/app/lib/config/874867c42e942e17247da706975cfa25c010b15d.map",
+      "size": 911,
+      "hash": "874867c42e942e17247da706975cfa25c010b15d"
     },
     {
       "path": "app/lib/router/routes.js",
@@ -1016,33 +1214,121 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/lib/blog.js?e4a0b6050c6ab97ea36ddafe335ac601bf6d2bd8",
+      "url": "/app/lib/blog.js?e61ff82f82012405e79c63a962b573a03f61db92",
       "sourceMap": "app/lib/blog.js.map",
-      "sourceMapUrl": "/app/lib/e4a0b6050c6ab97ea36ddafe335ac601bf6d2bd8.map",
-      "size": 70,
-      "hash": "e4a0b6050c6ab97ea36ddafe335ac601bf6d2bd8"
+      "sourceMapUrl": "/app/lib/e61ff82f82012405e79c63a962b573a03f61db92.map",
+      "size": 259,
+      "hash": "e61ff82f82012405e79c63a962b573a03f61db92"
+    },
+    {
+      "path": "app/client/eventhandlers/blog-create.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/app/client/eventhandlers/blog-create.js?837abb6f944593a8b592d1014676b76e2cb74969",
+      "sourceMap": "app/client/eventhandlers/blog-create.js.map",
+      "sourceMapUrl": "/app/client/eventhandlers/837abb6f944593a8b592d1014676b76e2cb74969.map",
+      "size": 1746,
+      "hash": "837abb6f944593a8b592d1014676b76e2cb74969"
+    },
+    {
+      "path": "app/client/eventhandlers/blogpost-list.eventhandlers.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/app/client/eventhandlers/blogpost-list.eventhandlers.js?0e13afd6f670ee9790026ce258214e6c9ec309e4",
+      "sourceMap": "app/client/eventhandlers/blogpost-list.eventhandlers.js.map",
+      "sourceMapUrl": "/app/client/eventhandlers/0e13afd6f670ee9790026ce258214e6c9ec309e4.map",
+      "size": 644,
+      "hash": "0e13afd6f670ee9790026ce258214e6c9ec309e4"
+    },
+    {
+      "path": "app/client/eventhandlers/blogpost.eventhandlers.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/app/client/eventhandlers/blogpost.eventhandlers.js?04b8a65cf8d66e40fa64e62d3df46548a0feb0b8",
+      "sourceMap": "app/client/eventhandlers/blogpost.eventhandlers.js.map",
+      "sourceMapUrl": "/app/client/eventhandlers/04b8a65cf8d66e40fa64e62d3df46548a0feb0b8.map",
+      "size": 1223,
+      "hash": "04b8a65cf8d66e40fa64e62d3df46548a0feb0b8"
+    },
+    {
+      "path": "app/client/eventhandlers/comments.eventhandlers.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/app/client/eventhandlers/comments.eventhandlers.js?ec8ca09b24a4098474b3bfc66855bb2e0ae9682c",
+      "sourceMap": "app/client/eventhandlers/comments.eventhandlers.js.map",
+      "sourceMapUrl": "/app/client/eventhandlers/ec8ca09b24a4098474b3bfc66855bb2e0ae9682c.map",
+      "size": 536,
+      "hash": "ec8ca09b24a4098474b3bfc66855bb2e0ae9682c"
+    },
+    {
+      "path": "app/client/helpers/blogpost-view.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/app/client/helpers/blogpost-view.js?d762b9ef4e4c9ab8e91d163fb5f707215baf506f",
+      "sourceMap": "app/client/helpers/blogpost-view.js.map",
+      "sourceMapUrl": "/app/client/helpers/d762b9ef4e4c9ab8e91d163fb5f707215baf506f.map",
+      "size": 936,
+      "hash": "d762b9ef4e4c9ab8e91d163fb5f707215baf506f"
+    },
+    {
+      "path": "app/client/helpers/blogposts-list.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/app/client/helpers/blogposts-list.js?d0cbf9bb0d5f6f53e71360dfd6e341f08ab825f6",
+      "sourceMap": "app/client/helpers/blogposts-list.js.map",
+      "sourceMapUrl": "/app/client/helpers/d0cbf9bb0d5f6f53e71360dfd6e341f08ab825f6.map",
+      "size": 1562,
+      "hash": "d0cbf9bb0d5f6f53e71360dfd6e341f08ab825f6"
+    },
+    {
+      "path": "app/client/helpers/comments.helpers.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/app/client/helpers/comments.helpers.js?fda0384cc08e4f1523946c65b37b477641d8c70a",
+      "sourceMap": "app/client/helpers/comments.helpers.js.map",
+      "sourceMapUrl": "/app/client/helpers/fda0384cc08e4f1523946c65b37b477641d8c70a.map",
+      "size": 326,
+      "hash": "fda0384cc08e4f1523946c65b37b477641d8c70a"
     },
     {
       "path": "app/client/blogs.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/client/blogs.js?73d7696856a2dade6203e2836bd821f86ead5ea6",
+      "url": "/app/client/blogs.js?177d5b3c87d630faefad12b88d411a6cdb065f66",
       "sourceMap": "app/client/blogs.js.map",
-      "sourceMapUrl": "/app/client/73d7696856a2dade6203e2836bd821f86ead5ea6.map",
-      "size": 1831,
-      "hash": "73d7696856a2dade6203e2836bd821f86ead5ea6"
+      "sourceMapUrl": "/app/client/177d5b3c87d630faefad12b88d411a6cdb065f66.map",
+      "size": 1095,
+      "hash": "177d5b3c87d630faefad12b88d411a6cdb065f66"
+    },
+    {
+      "path": "app/client/bootstrap3-typeahead.min.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/app/client/bootstrap3-typeahead.min.js?3112664e317c3cfc96f5b6cb943581089e6f6e81",
+      "sourceMap": "app/client/bootstrap3-typeahead.min.js.map",
+      "sourceMapUrl": "/app/client/3112664e317c3cfc96f5b6cb943581089e6f6e81.map",
+      "size": 6905,
+      "hash": "3112664e317c3cfc96f5b6cb943581089e6f6e81"
     },
     {
       "path": "merged-stylesheets.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/merged-stylesheets.css?38fc9657ff36a137116ee13275fa117658068241",
+      "url": "/merged-stylesheets.css?4686fdccc897e9e2b297cc37a7dd24fdc0179170",
       "sourceMap": "merged-stylesheets.css.map",
-      "sourceMapUrl": "/38fc9657ff36a137116ee13275fa117658068241.map",
-      "size": 851502,
-      "hash": "38fc9657ff36a137116ee13275fa117658068241"
+      "sourceMapUrl": "/4686fdccc897e9e2b297cc37a7dd24fdc0179170.map",
+      "size": 802140,
+      "hash": "4686fdccc897e9e2b297cc37a7dd24fdc0179170"
     },
     {
       "path": "packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.eot",
@@ -1090,6 +1376,69 @@
       "hash": "ca35b697d99cae4d1b60f2d60fcd37771987eb07"
     },
     {
+      "path": "packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.eot",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.eot",
+      "size": 68875,
+      "hash": "b3c2f08e73320135b69c23a3908b87a12053a2f6"
+    },
+    {
+      "path": "packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.svg",
+      "size": 355981,
+      "hash": "2b3c8ba7008cc014d8fb37abc6f9f49aeda83824"
+    },
+    {
+      "path": "packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.ttf",
+      "size": 138204,
+      "hash": "27cf1f2ec59aece6938c7bb2feb0e287ea778ff9"
+    },
+    {
+      "path": "packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.woff",
+      "size": 81284,
+      "hash": "507970402e328b2baeb05bde73bf9ded4e2c3a2d"
+    },
+    {
+      "path": "packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.woff2",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.woff2",
+      "size": 64464,
+      "hash": "574ea2698c03ae9477db2ea3baf460ee32f1a7ea"
+    },
+    {
+      "path": "packages/fortawesome_fontawesome/upstream/fonts/FontAwesome.otf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/fortawesome_fontawesome/upstream/fonts/FontAwesome.otf",
+      "size": 106260,
+      "hash": "0112e96f327d413938d37c1693806f468ffdbace"
+    },
+    {
+      "path": "packages/alethes_pages/public/loader.gif",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/alethes_pages/public/loader.gif",
+      "size": 3208,
+      "hash": "313b867d11fc0dd6bc6ca47c334bbcf18956ca76"
+    },
+    {
       "path": "app/img/a1.jpg",
       "where": "client",
       "type": "asset",
@@ -1126,6 +1475,15 @@
       "hash": "06608fdb077e80b40e9a0e72e75c7e06f873d9f3"
     },
     {
+      "path": "app/img/follow.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/follow.png",
+      "size": 13392,
+      "hash": "4656be63a826b27506a6625b8417ed29bf25aa4d"
+    },
+    {
       "path": "app/img/profile_small.jpg",
       "where": "client",
       "type": "asset",
@@ -1142,6 +1500,15 @@
       "url": "/imgs/bg.jpg",
       "size": 29176,
       "hash": "2809688c5de1d7f47c64380c0987d57a1c005cae"
+    },
+    {
+      "path": "app/imgs/follow.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/imgs/follow.png",
+      "size": 13392,
+      "hash": "4656be63a826b27506a6625b8417ed29bf25aa4d"
     },
     {
       "path": "head.html",

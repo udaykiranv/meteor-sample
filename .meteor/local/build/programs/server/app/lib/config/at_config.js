@@ -13,7 +13,7 @@ AccountsTemplates.configure({
 
   // sendVerificationEmail: true,
   // enforceEmailVerification: true,
-  //confirmPassword: true,
+  confirmPassword: true,
   //continuousValidation: false,
   //displayFormLabels: true,
   //forbidClientAccountCreation: true,
@@ -31,6 +31,14 @@ AccountsTemplates.configure({
   //privacyUrl: 'privacy',
   //termsUrl: 'terms-of-use',
 });
+
+
+AccountsTemplates.addField({
+  _id: 'username',
+  type: 'text',
+  required: true,
+});
+
 
 }).call(this);
 

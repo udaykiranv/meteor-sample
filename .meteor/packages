@@ -26,8 +26,23 @@ random
 ejson
 spacebars
 check
-patrickleet:tags
 jeremy:selectize
 
 autopublish             # Publish all data to the clients (for prototyping)
 insecure                # Allow all DB writes from clients (for prototyping)
+fortawesome:fontawesome
+meteorhacks:aggregate
+ajduke:bootstrap-tagsinput
+sergeyt:typeahead@0.11.1_1
+mizzao:autocomplete
+
+juliancwirko:s-alert
+juliancwirko:s-alert-scale
+juliancwirko:s-alert-slide
+juliancwirko:s-alert-genie
+juliancwirko:s-alert-jelly
+juliancwirko:s-alert-flip
+juliancwirko:s-alert-bouncyflip
+juliancwirko:s-alert-stackslide
+ergusto:tags
+alethes:pages

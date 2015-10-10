@@ -1,0 +1,37 @@
+<template name="comments">
+    {{#each comments}}
+        <div class="chat-message left">
+            <img class="message-avatar"
+                 src="/img/a1.jpg"
+                 alt="">
+
+            <div class="message">
+                <a class="message-author"
+                   href="#">{{username}}</a>
+                <span class="message-date"> {{created_at}} </span>
+<span class="message-content">
+    {{comment}}
+</span>
+            </div>
+        </div>
+    {{/each}}
+
+    {{#if isPostSelected}}
+        <div class="chat-message-form">
+            <form id="commentform">
+                <div class="form-group">
+
+<textarea class="form-control message-input"
+          name="newcomment"
+          id="newcomment"
+          placeholder="Discuss Move"></textarea>
+<br/>
+
+                        <button class="btn btn-primary"
+                                type="submit">Make a Move
+                        </button>
+                </div>
+            </form>
+        </div>
+    {{/if}}
+</template>

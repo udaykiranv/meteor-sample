@@ -1,0 +1,15 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "tags": {}
+    },
+    "packages": {
+      "tags": {
+        "git": "https://github.com/apendua/meteor-tags.git",
+        "tag": "v0.1.2.2",
+        "commit": "613382880617178276a7fbbcfe07812407d48e6b"
+      }
+    }
+  }
+}

@@ -1,227 +1,99 @@
 <template name="listBlogs">
-    <div class="wrapper wrapper-content">
-        <div class="row">
-            <div class="col-lg-2">
-                <div class="ibox float-e-margins">
-                    <div class="ibox-content mailbox-content">
-                        <div class="file-manager">
-                            <a class="btn btn-block btn-primary compose-mail"
-                               href="create_move.html">Make a New Move</a>
 
-                            <div class="space-25"></div>
-                            <h5>Folders</h5>
-                            <ul class="folder-list m-b-md"
-                                style="padding: 0">
-                                <li><a href="mailbox.html"> <i class="fa fa-inbox "></i> Watch List
-                                    <span class="label label-warning pull-right">16</span> </a></li>
-                                <li><a href="mailbox.html"> <i class="fa fa-envelope-o"></i> Most Liked </a></li>
-                                <li><a href="mailbox.html"> <i class="fa fa-certificate"></i> Important</a></li>
-                                <li><a href="mailbox.html"> <i class="fa fa-file-text-o"></i> My Trades
-                                    <span class="label label-danger pull-right">2</span></a></li>
-                                <li><a href="mailbox.html"> <i class="fa fa-trash-o"></i> Custom</a></li>
-                            </ul>
-                            <h5>Categories</h5>
-                            <ul class="category-list"
-                                style="padding: 0">
-                                <li><a href="#"> <i class="fa fa-circle text-navy"></i> Intra Day </a></li>
-                                <li><a href="#"> <i class="fa fa-circle text-danger"></i>Short Term</a></li>
-                                <li><a href="#"> <i class="fa fa-circle text-primary"></i> Medium Term</a></li>
-                                <li><a href="#"> <i class="fa fa-circle text-info"></i> Long Term</a></li>
-                            </ul>
+    <div class="row wrapper wrapper-content">
+        <div class="col-md-2"
+             style="background: #FEFEFE">
 
-                            <h5 class="tag-title">Labels</h5>
-                            <ul class="tag-list"
-                                style="padding: 0">
-                                <li><a href=""><i class="fa fa-tag"></i>Waves</a></li>
-                                <li><a href=""><i class="fa fa-tag"></i> Pitchfork</a></li>
-                                <li><a href=""><i class="fa fa-tag"></i> Moving Average</a></li>
+            <div class="ibox float-e-margins">
+                <div class="ibox-content mailbox-content">
+                    <div class="file-manager">
+                        <a class="btn btn-block btn-primary compose-mail"
+                           href="/blog">Make a New Move</a>
 
-                                <li><a href=""><i class="fa fa-tag"></i> Fibonocci</a></li>
-                                <li><a href=""><i class="fa fa-tag"></i> Market Profile</a></li>
-                            </ul>
-                            <div class="clearfix"></div>
-                        </div>
+                        <div class="space-25"></div>
+                        <h5>Folders</h5>
+                        <ul class="folder-list m-b-md"
+                            style="padding: 0">
+                            <li><a href="#"
+                                   class="all"> <i class="fa fa-inbox "></i> All Moves
+                            </a></li>
+                            <li><a href="#"
+                                   class="watchlist"> <i class="fa fa-inbox "></i> Watch List
+                                <span class="label label-warning pull-right">{{watchListCount}}</span> </a></li>
+                            <li><a href="#"
+                                   class="mytrades"> <i class="fa fa-file-text-o"></i> My Recomendations
+                                <span class="label label-danger pull-right">{{myTradeCount}}</span>
+                            </a></li>
+                            <li><a href="#"
+                                   class="mytrades"> <i class="fa fa-file-text-o"></i> Most Liked
+                            </a></li>
+                        </ul>
+                        <h5>Categories</h5>
+                        <ul class="category-list"
+                            style="padding: 0">
+                            <li><a href="#"> <i class="fa fa-circle text-navy"></i> Intra Day </a></li>
+                            <li><a href="#"> <i class="fa fa-circle text-danger"></i>Short Term</a></li>
+                            <li><a href="#"> <i class="fa fa-circle text-primary"></i> Medium Term</a></li>
+                            <li><a href="#"> <i class="fa fa-circle text-info"></i> Long Term</a></li>
+                        </ul>
+
+                        <h5 class="tag-title">Labels</h5>
+                        <ul class="tag-list"
+                            style="padding: 0">
+                            <li><a href=""><i class="fa fa-tag"></i>Waves</a></li>
+                            <li><a href=""><i class="fa fa-tag"></i> Pitchfork</a></li>
+                            <li><a href=""><i class="fa fa-tag"></i> Moving Average</a></li>
+
+                            <li><a href=""><i class="fa fa-tag"></i> Fibonocci</a></li>
+                            <li><a href=""><i class="fa fa-tag"></i> Market Profile</a></li>
+                        </ul>
+                        <div class="clearfix"></div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-10 animated fadeInRight">
-                <div class="mail-box-header">
 
-                    <form method="get"
-                          action="index.html"
-                          class="pull-right mail-search">
-                        <div class="input-group">
-                            <input type="text"
-                                   class="form-control input-sm"
-                                   name="search"
-                                   placeholder="Search Moves">
+        </div>
+        <div class="col-md-10 animated fadeInRight"
+             style="background: #FEFEFE;background: #FEFEFE;border: 1px solid #e7eaec">
 
-                            <div class="input-group-btn">
-                                <button type="submit"
-                                        class="btn btn-sm btn-primary">
-                                    Search
-                                </button>
-                            </div>
-                        </div>
-                    </form>
+            <div class="mail-box-header">
+                <div class="input-group">
                     <h2>
-                        Watchlist (16)
+                        {{type}}
                     </h2>
-
-                    <div class="mail-tools tooltip-demo m-t-md">
-                        <div class="btn-group pull-right">
-                            <button class="btn btn-white btn-sm"><i class="fa fa-arrow-left"></i></button>
-                            <button class="btn btn-white btn-sm"><i class="fa fa-arrow-right"></i></button>
-
-                        </div>
-                        <button class="btn btn-white btn-sm"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Mark as read"><i class="fa fa-eye"></i></button>
-                        <button class="btn btn-white btn-sm"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Mark as important"><i class="fa fa-exclamation"></i></button>
-                        <button class="btn btn-white btn-sm"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Move to trash"><i class="fa fa-trash-o"></i></button>
+                </div>
+                <div class="mail-tools tooltip-demo m-t-md">
+                    <div class="btn-group pull-right">
+                        <button class="btn btn-white btn-sm"><i class="fa fa-arrow-left"></i></button>
+                        <button class="btn btn-white btn-sm"><i class="fa fa-arrow-right"></i></button>
 
                     </div>
+                    <button class="btn btn-white btn-sm"
+                            data-toggle="tooltip"
+                            data-placement="top"
+                            title="Mark as read"><i class="fa fa-eye"></i></button>
+                    <button class="btn btn-white btn-sm"
+                            data-toggle="tooltip"
+                            data-placement="top"
+                            title="Mark as important"><i class="fa fa-exclamation"></i></button>
+                    <button class="btn btn-white btn-sm"
+                            data-toggle="tooltip"
+                            data-placement="top"
+                            title="Move to trash"><i class="fa fa-trash-o"></i></button>
+
                 </div>
-                <div class="fh-column">
-                    <div class="full-height-scroll">
-                        <ul class="list-group elements-list">
-                            {{#each blogs}}
-                                <li class="list-group-item">
-                                    <a data-toggle="tab"
-                                       href="#tab-1">
-                                        <small class="pull-right text-muted"> 15 minutes ago</small>
-                                        <strong>Uday</strong>
+            </div>
 
-                                        <div class="small m-t-xs">
-                                            <p>
-                                                {{title}}
-                                            </p>
+            <div class="col-md-3" style ="height:435px;overflow:scroll">
 
-                                            <p class="m-b-xs">
-                                                <span class="label pull-right label-primary">Market Profile</span>
-                                                <i class="fa fa-map-marker"></i> Intraday
-                                            </p>
-                                        </div>
-                                    </a>
-                                </li>
-                            {{/each}}
-                        </ul>
+            {{> posts}}
+            </div>
+            <div class="col-md-6">
+                {{> viewblog}}
+            </div>
 
-                    </div>
-                </div>
-
-                <div class="full-height">
-                    <div class="full-height-scroll white-bg border-left">
-
-                        <div class="element-detail-box">
-
-                            <div class="tab-content">
-                                <div id="tab-1"
-                                     class="tab-pane active">
-
-                                    <div class="pull-right">
-                                        <div class="tooltip-demo">
-                                            <button class="btn btn-white btn-xs"
-                                                    data-toggle="tooltip"
-                                                    data-placement="left"
-                                                    title="Plug this message"><i class="fa fa-plug"></i> Plug it
-                                            </button>
-                                            <button class="btn btn-white btn-xs"
-                                                    data-toggle="tooltip"
-                                                    data-placement="top"
-                                                    title="Mark as read"><i class="fa fa-eye"></i></button>
-                                            <button class="btn btn-white btn-xs"
-                                                    data-toggle="tooltip"
-                                                    data-placement="top"
-                                                    title=""
-                                                    data-original-title="Mark as important">
-                                                <i class="fa fa-exclamation"></i></button>
-                                            <button class="btn btn-white btn-xs"
-                                                    data-toggle="tooltip"
-                                                    data-placement="top"
-                                                    title=""
-                                                    data-original-title="Move to tras"><i class="fa fa-twitter"></i>
-                                            </button>
-
-                                        </div>
-                                    </div>
-                                    <div class="small text-muted">
-                                        <i class="fa fa-clock-o"></i> Friday, 12 April 2014, 12:32 am
-                                    </div>
-
-                                    <h1>
-                                        Buy Infosys at 1090. SL 1070. Target 1150
-                                    </h1>
-
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <img src="/img/chart.jpg"
-                                                 width="90%"/>
-
-                                            <p>
-                                                Remarks: Value Area has been breached. We are looking at 80% trade
-                                            </p>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="chat-message left">
-                                                <img class="message-avatar"
-                                                     src="/img/a1.jpg"
-                                                     alt="">
-
-                                                <div class="message">
-                                                    <a class="message-author"
-                                                       href="#"> Michael Smith </a>
-                                                    <span class="message-date"> Mon Jan 26 2015 - 18:39:23 </span>
-                                            <span class="message-content">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-                                            </span>
-                                                </div>
-                                            </div>
-                                            <div class="chat-message right">
-                                                <img class="message-avatar"
-                                                     src="/img/a2.jpg"
-                                                     alt="">
-
-                                                <div class="message">
-                                                    <a class="message-author"
-                                                       href="#"> Karl Jordan </a>
-                                                    <span class="message-date">  Fri Jan 25 2015 - 11:12:36 </span>
-                                            <span class="message-content">
-                      Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover.
-                                            </span>
-                                                </div>
-                                            </div>
-                                            <div class="chat-message-form">
-
-                                                <div class="form-group">
-
-                                                    <textarea class="form-control message-input"
-                                                              name="message"
-                                                              placeholder="Discuss Move"></textarea>
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-
+            <div class="col-md-3" style ="height:435px;overflow:scroll">
+            {{> comments}}
             </div>
         </div>
     </div>
