@@ -26,7 +26,7 @@ Template.createBlog.events({
     var technique = $('#technique').val();
     var timeframe = $('#timeframe').val();
     var username = Meteor.user().username;
-
+    var userId = Meteor.userId();
     var tags = $('#tags').val();
     tags = tags.split(",");
 
@@ -37,7 +37,7 @@ Template.createBlog.events({
 
     var title = (parseInt(price) < parseInt(target) ? "BUY " : "SELL  ") + instrument + " AT " + price + " TARGET " + target + "  SL " + stoploss;
 
-    Meteor.call('submitPost', '', title, instrument, technique, timeframe, price, stoploss, target, tags, username);
+    Meteor.call('submitPost', '', title, instrument, technique, timeframe, price, stoploss, target, tags, userId, username);
   },
 
   'change #timeframe': function(event) {

@@ -1,10 +1,10 @@
 (function(){Meteor.methods({
-  'submitPost': function(blogId, title, instrument, technique, timeframe, price, stoploss, target, tags, username) {
+  'submitPost': function(blogId, title, instrument, technique, timeframe, price, stoploss, target, tags, userId, username) {
     var now = new Date();
     if (blogId) {
       Blogs.update({_id: blogId}, {$set: {title: title, instrument: instrument, price: price, stoploss: stoploss, target : target, technique: technique , timeframe : timeframe, "last_updated_at": now, "username": username}});
     } else {
-      var data = Blogs.insert({title: title, instrument: instrument, technique: technique , timeframe : timeframe, price: price, stoploss: stoploss, target : target, "created_at": now, "last_updated_at": now, "username": username} , function(err, result) {
+      var data = Blogs.insert({title: title, instrument: instrument, technique: technique , timeframe : timeframe, price: price, stoploss: stoploss, target : target, "created_at": now, "last_updated_at": now, "username": username , "userId" : userId} , function(err, result) {
         var blogId = result;
         for(i = 0 ; i < tags.length ; i++) {
           Blogs.addTag(tags[i] , { _id: blogId });

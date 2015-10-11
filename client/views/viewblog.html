@@ -1,46 +1,55 @@
 <template name="viewblog">
-        {{#with selectedPost}}
-            <div class="element-detail-box">
-                <div class="tab-content">
-                    <div id="tab-1"
-                         class="tab-pane active">
+    {{#with selectedPost}}
+        <div class="element-detail-box">
+            <div class="tab-content">
+                <div id="tab-1"
+                     class="tab-pane active">
 
-                        <div class="pull-right">
-                            <div class="tooltip-demo">
+                    <div class="pull-right">
+                        <div class="tooltip-demo">
 
-                                {{#if isInWatchList}}
-                                <button class="btn btn-primary btn-xs watchlist_add"
+                            {{#if isInWatchList}}
+                                <button class="btn btn-follow btn-xs watchlist_add"
                                         data-toggle="tooltip"
                                         data-placement="left"
                                         title="Plug this message"><i class="fa fa-user-plus"></i> Following
                                 </button>
-                                {{else}}
-                                <button class="btn btn-primary btn-xs watchlist_add"
+                            {{else}}
+                                <button class="btn btn-follow btn-xs watchlist_add"
                                         data-toggle="tooltip"
                                         data-placement="left"
                                         title="Plug this message"><i class="fa fa-user"></i> Follow
                                 </button>
-                                {{/if}}
-                            </div>
+                            {{/if}}
                         </div>
-                        <div class="small text-muted">
-                            <i class="fa fa-clock-o"></i> {{created_at}}
+                    </div>
+                    <div class="small text-muted">
+                        <i class="fa fa-clock-o"></i> {{created_at}}
+                    </div>
+
+                    <h1>
+                        {{title}}
+                    </h1>
+
+                    <div class="row">
+                        <img src="/img/chart.jpg"
+                             width="90%"/>
+
+                        <p>
+                            Remarks: Value Area has been breached. We are looking at 80% trade
+                        </p>
+                    </div>
+                    <div>
+                        <div>
+                            <span class="fa fa-tags"></span>
+                            {{#each tags}}
+                                <span><a href="#">{{name}}</a> &nbsp; &nbsp;</span>
+                            {{/each}}
                         </div>
 
-                        <h1>
-                            {{title}}
-                        </h1>
-
-                        <div class="row">
-                            <img src="/img/chart.jpg"
-                                 width="90%"/>
-
-                            <p>
-                                Remarks: Value Area has been breached. We are looking at 80% trade
-                            </p>
-                        </div>
                     </div>
                 </div>
             </div>
-        {{/with}}
+        </div>
+    {{/with}}
 </template>

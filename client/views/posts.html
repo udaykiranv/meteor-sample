@@ -5,7 +5,7 @@
                 <a data-toggle="tab"
                    href="#tab-1"
                    class="selected">
-                    <small class="pull-right text-muted"> {{timeSince}}</small>
+                    <small class="pull-right text-muted" style="margin-top:-13px;margin-right: -13px"> {{timeSince}}</small>
                     <strong>{{username}}</strong>
 
                     <div class="small m-t-xs">
@@ -14,9 +14,7 @@
                         </p>
 
                         <p class="m-b-xs">
-                            <span class="label label-primary">Intraday</span>
-                            <!--<span class="pull-right"><i class="fa fa-tags"></i> tags</span> -->
-
+                            <span class="label label-primary category {{categoryclass}}" >{{category}}</span>
                         <span class="dropdown">
                             <span class="pull-right dropdown-toggle" type="button" data-toggle="dropdown">
                                 <span class="fa fa-tags">Tags</span></span>

@@ -1060,11 +1060,11 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/client/views/template.blog-list.js?ebefff21824e7f95fd77ce90425056475173f5f2",
+      "url": "/app/client/views/template.blog-list.js?54a00c958af5952b917b898262c6c650aeb56558",
       "sourceMap": "app/client/views/template.blog-list.js.map",
-      "sourceMapUrl": "/app/client/views/ebefff21824e7f95fd77ce90425056475173f5f2.map",
-      "size": 5429,
-      "hash": "ebefff21824e7f95fd77ce90425056475173f5f2"
+      "sourceMapUrl": "/app/client/views/54a00c958af5952b917b898262c6c650aeb56558.map",
+      "size": 5751,
+      "hash": "54a00c958af5952b917b898262c6c650aeb56558"
     },
     {
       "path": "app/client/views/template.comments.js",
@@ -1093,11 +1093,11 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/client/views/template.posts.js?c8f86ae09b8b5032be2653629baad0fff92fd245",
+      "url": "/app/client/views/template.posts.js?79b0e826ec589c083b645cb1f44b5ee37c666f60",
       "sourceMap": "app/client/views/template.posts.js.map",
-      "sourceMapUrl": "/app/client/views/c8f86ae09b8b5032be2653629baad0fff92fd245.map",
-      "size": 2436,
-      "hash": "c8f86ae09b8b5032be2653629baad0fff92fd245"
+      "sourceMapUrl": "/app/client/views/79b0e826ec589c083b645cb1f44b5ee37c666f60.map",
+      "size": 2569,
+      "hash": "79b0e826ec589c083b645cb1f44b5ee37c666f60"
     },
     {
       "path": "app/client/views/template.private.js",
@@ -1115,11 +1115,11 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/client/views/template.viewblog.js?292f4141bde44757e33d8e8ffb61af3a7c99b8cb",
+      "url": "/app/client/views/template.viewblog.js?b5507bd8cf9ea33130f02428ea322865b832f4d5",
       "sourceMap": "app/client/views/template.viewblog.js.map",
-      "sourceMapUrl": "/app/client/views/292f4141bde44757e33d8e8ffb61af3a7c99b8cb.map",
-      "size": 2657,
-      "hash": "292f4141bde44757e33d8e8ffb61af3a7c99b8cb"
+      "sourceMapUrl": "/app/client/views/b5507bd8cf9ea33130f02428ea322865b832f4d5.map",
+      "size": 3289,
+      "hash": "b5507bd8cf9ea33130f02428ea322865b832f4d5"
     },
     {
       "path": "app/client/template.footer.js",
@@ -1225,22 +1225,22 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/client/eventhandlers/blog-create.js?837abb6f944593a8b592d1014676b76e2cb74969",
+      "url": "/app/client/eventhandlers/blog-create.js?c44d377958e09d2ecb7f945f1323f7476f08d83e",
       "sourceMap": "app/client/eventhandlers/blog-create.js.map",
-      "sourceMapUrl": "/app/client/eventhandlers/837abb6f944593a8b592d1014676b76e2cb74969.map",
-      "size": 1746,
-      "hash": "837abb6f944593a8b592d1014676b76e2cb74969"
+      "sourceMapUrl": "/app/client/eventhandlers/c44d377958e09d2ecb7f945f1323f7476f08d83e.map",
+      "size": 1787,
+      "hash": "c44d377958e09d2ecb7f945f1323f7476f08d83e"
     },
     {
       "path": "app/client/eventhandlers/blogpost-list.eventhandlers.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/client/eventhandlers/blogpost-list.eventhandlers.js?0e13afd6f670ee9790026ce258214e6c9ec309e4",
+      "url": "/app/client/eventhandlers/blogpost-list.eventhandlers.js?d327d48951203183f908cfb4168527433d66477e",
       "sourceMap": "app/client/eventhandlers/blogpost-list.eventhandlers.js.map",
-      "sourceMapUrl": "/app/client/eventhandlers/0e13afd6f670ee9790026ce258214e6c9ec309e4.map",
-      "size": 644,
-      "hash": "0e13afd6f670ee9790026ce258214e6c9ec309e4"
+      "sourceMapUrl": "/app/client/eventhandlers/d327d48951203183f908cfb4168527433d66477e.map",
+      "size": 1266,
+      "hash": "d327d48951203183f908cfb4168527433d66477e"
     },
     {
       "path": "app/client/eventhandlers/blogpost.eventhandlers.js",
@@ -1280,11 +1280,11 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/client/helpers/blogposts-list.js?d0cbf9bb0d5f6f53e71360dfd6e341f08ab825f6",
+      "url": "/app/client/helpers/blogposts-list.js?444c245003a327959612a904d8542059618aa6c6",
       "sourceMap": "app/client/helpers/blogposts-list.js.map",
-      "sourceMapUrl": "/app/client/helpers/d0cbf9bb0d5f6f53e71360dfd6e341f08ab825f6.map",
-      "size": 1562,
-      "hash": "d0cbf9bb0d5f6f53e71360dfd6e341f08ab825f6"
+      "sourceMapUrl": "/app/client/helpers/444c245003a327959612a904d8542059618aa6c6.map",
+      "size": 2870,
+      "hash": "444c245003a327959612a904d8542059618aa6c6"
     },
     {
       "path": "app/client/helpers/comments.helpers.js",
@@ -1324,11 +1324,11 @@
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/merged-stylesheets.css?3b17fe6a45449ac26bad8e6d83c4736197701be1",
+      "url": "/merged-stylesheets.css?559e62dcc7190739b4f09404581577b5c4bb44e1",
       "sourceMap": "merged-stylesheets.css.map",
-      "sourceMapUrl": "/3b17fe6a45449ac26bad8e6d83c4736197701be1.map",
-      "size": 802140,
-      "hash": "3b17fe6a45449ac26bad8e6d83c4736197701be1"
+      "sourceMapUrl": "/559e62dcc7190739b4f09404581577b5c4bb44e1.map",
+      "size": 802408,
+      "hash": "559e62dcc7190739b4f09404581577b5c4bb44e1"
     },
     {
       "path": "packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.eot",

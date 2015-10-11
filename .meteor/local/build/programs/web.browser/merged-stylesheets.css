@@ -43631,3 +43631,25 @@ li {
 .bootstrap-tagsinput {
   width: 100%;
 }
+
+.intraday {
+  background-color: #1ab394;
+}
+
+.shortterm {
+  background-color: #EF5352;
+}
+
+.mediumterm {
+  background-color: #1c84c6;
+}
+
+.longterm {
+  background-color: #23c6c8;
+}
+
+.btn-follow {
+  background-color: #1A65B3;
+  border-color: #1A65B3;
+  color: #FEFEFE;
+}
